@@ -1,6 +1,7 @@
 Проблемними таблицями є Ticket та Employee з наступною структурою залежностей
 
 > ticket_id -> user_id, trip_number, departing_station, arrival_station, departing_order, arrival_order, last_name, first_name, wagon_number, seat_number
+> 
 > employee_id -> train_id, employee_type
 
 В таблиці Ticket можна винести seat_number як FK seat_id та також винести пассажира в нову таблицю Passenger. (Було порушення 3NF)
