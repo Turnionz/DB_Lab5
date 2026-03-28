@@ -15,10 +15,17 @@
 
 Структура Passenger:
 
-PK passenger_id
-FK user_id
-last_name
-first_name
+> PK passenger_id
+> FK user_id
+> last_name
+> first_name
+
+Структура Crew_Assignment:
+
+> PK assignment_id
+> FK eployee_id
+> FK  train_id
+> shift_date
 
 ```sql
 CREATE TABLE IF NOT EXISTS Passenger(
